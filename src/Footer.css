@@ -1,0 +1,35 @@
+footer {
+    background-color: #181617;
+    padding-bottom: 10px;
+}
+
+.footer-header {
+    margin: 0;
+    padding-top: 50px;
+    line-height: 1;
+}
+
+.footer-text {
+    padding-inline: 20%;
+    text-align: center;
+    display: inline-block;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: #ddd;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: small;
+}
+
+.footer-text a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: #a020f0;
+}
+
+.react-img {
+    margin-left: 5px;
+    margin-right: 5px;
+}

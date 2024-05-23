@@ -1,0 +1,114 @@
+#skills {
+    padding-top: 50px;
+    margin-top: -50px;
+    background-color: #eee;
+    padding-bottom: 200px;
+}
+
+.skills-header {
+    height: 50px;
+    color: #000;
+    margin-top: 150px;
+}
+
+.bar-card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.bar-card {
+    width: 80vw;
+    height: 550px;
+    border-radius: 50px;
+    background-color: #e0e0e0;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #fff;
+}
+
+.bar-card-header-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bar-card-header {
+    margin-top: 60px;
+}
+
+.bar-card-header a {
+    text-decoration: none;
+    color: #000;
+}
+
+.bar-card-header:hover {
+    color: #a020f0;
+    cursor: pointer;
+}
+
+.selected {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 0;
+    margin-top: 60px;
+    font-size: 1.5em;
+    color: #a020f0;
+}
+
+.selected:hover {
+    cursor: pointer;
+}
+
+.underline {
+    position: absolute;
+    width: 10%;
+    height: 2px;
+    background-color: #a020f0;
+    transition: left 0.3s ease, width 0.3s ease;
+}
+
+.bar-line {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+
+.bar {
+    display: block;
+    --height-of-loader: 10px;
+    --loader-color: #a020f0;
+    width: 30vw;
+    height: var(--height-of-loader);
+    border-radius: 30px;
+    background-color: rgba(0,0,0,0.2);
+    position: relative;
+}
+
+.bar::before {
+    content: "";
+    position: absolute;
+    background: var(--loader-color);
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-radius: 30px;
+    animation: var(--animation-name) 1s forwards;
+}
+
+@keyframes coding-fillbar {
+    to {
+      width: var(--fill-width);
+    }
+}
+
+@keyframes technical-fillbar {
+    to {
+      width: var(--fill-width);
+    }
+}
+
+@keyframes soft-fillbar {
+    to {
+      width: var(--fill-width);
+    }
+}
