@@ -84,18 +84,18 @@ function Skills() {
                     <>
                         <div className='bar-line'>
                             <div className='bar-container'>
-                                <h3>MS Word / Google Docs</h3>
+                                <h3>Word / Docs</h3>
                                 <div className='bar' style={{ '--fill-width': '90%', '--animation-name' : 'technical-fillbar' }}></div>
                             </div>
                             <div className='bar-container'>
-                                <h3>MS PowerPoint / Google Slides</h3>
+                                <h3>PowerPoint / Slides</h3>
                                 <div className='bar' style={{ '--fill-width': '80%', '--animation-name' : 'technical-fillbar' }}></div>
                             </div>
                         </div>
 
                         <div className='bar-line'>
                             <div className='bar-container'>
-                                <h3>MS Excel / Google Sheets</h3>
+                                <h3>Excel / Sheets</h3>
                                 <div className='bar' style={{ '--fill-width': '75%', '--animation-name' : 'technical-fillbar' }}></div>
                             </div>
                             <div className='bar-container'>
@@ -188,9 +188,9 @@ function Skills() {
             <div className='bar-card-container'>
                 <div className='bar-card'>
                     <div className='bar-card-header-container'>
-                        <h2 className={`${selectedCategory === 'Coding Skills' ? 'selected' : 'bar-card-header'}`} ref={headerRefs['Coding Skills']} onClick={() => handleHeaderClick('Coding Skills')}>Coding Skills</h2>
-                        <h2 className={`${selectedCategory === 'Technical Skills' ? 'selected' : 'bar-card-header'}`} ref={headerRefs['Technical Skills']} onClick={() => handleHeaderClick('Technical Skills')}>Technical Skills</h2>
-                        <h2 className={`${selectedCategory === 'Soft Skills' ? 'selected' : 'bar-card-header'}`} ref={headerRefs['Soft Skills']} onClick={() => handleHeaderClick('Soft Skills')}>Soft Skills</h2>
+                        <h2 className={`${selectedCategory === 'Coding Skills' ? 'selected' : 'bar-card-header'}`} ref={headerRefs['Coding Skills']} onClick={() => handleHeaderClick('Coding Skills')}>Coding</h2>
+                        <h2 className={`${selectedCategory === 'Technical Skills' ? 'selected' : 'bar-card-header'}`} ref={headerRefs['Technical Skills']} onClick={() => handleHeaderClick('Technical Skills')}>Technical</h2>
+                        <h2 className={`${selectedCategory === 'Soft Skills' ? 'selected' : 'bar-card-header'}`} ref={headerRefs['Soft Skills']} onClick={() => handleHeaderClick('Soft Skills')}>Soft</h2>
                     </div>
                     <div className='underline' style={underlineStyle}></div>
                     {renderContent()}

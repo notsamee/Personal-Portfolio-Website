@@ -8,13 +8,18 @@ function Projects() {
                 <div className='card'>
                     <h2 className='projects-subheader'>Sorting Algorithm Visualizer</h2>
                     <div className='projects-img-container'><img className='sorting-img' src='/sorting-visualizer.png'></img></div>
-                    <p className='projects-img-description'>Randomized array represented with bars</p>
+                    <p className='projects-img-description'>Quick sort algorithm being implemented</p>
                     <ul className='projects-list'>
-                        <li className='projects-text'>Developed an interactive sorting algorithm visualizer with <b>React.js</b>.</li>
-                        <li className='projects-text'>Implemented dynamic bar elements and <b>real-time animations</b> for <b>bubble sort, insertion sort, merge sort, and quick sort</b>.</li>
-                        <li className='projects-text'>Utilized <b>React state management</b> for visual updates, highlighting comparisons and swaps.</li>
+                        <li className='projects-text'>Developed an interactive sorting algorithm visualizer using <b>ReactJS</b>.</li>
+                        <li className='projects-text'>Implemented dynamic bar elements and <b>real-time animations</b> for <b>bubble, insertion, selection, merge, heap, and quick sorting algorithms</b>.</li>
+                        <li className='projects-text'>Demonstrated <b>visual updates</b>, highlighting comparisons and swaps.</li>
                         <li className='projects-text'>Designed a <b>user-friendly interface</b> with controls for sorting, adjusting speed, and resetting visualizations.</li>
                     </ul>
+                    <div className='projects-button-container'>
+                        <a href='/SortingAlgorithmVisualizer'>
+                            <button className='projects-button'>Try it!</button>
+                        </a>
+                    </div>
                 </div>
                 <div className='card'>
                     <h2 className='projects-subheader'>Banking Application Demo</h2>
@@ -24,7 +29,8 @@ function Projects() {
                         <li className='projects-text'>Spearheaded the development of a <b>collaborative Java banking application</b>, emphasizing teamwork.</li>
                         <li className='projects-text'>Utilized <b>Object-Oriented Programming</b> principles for a modular, flexible, and scalable architecture.</li>
                         <li className='projects-text'>Engineered a robust <b>SQLite database system</b> for efficient user profile, account, and transaction management.</li>
-                        <li className='projects-text'>Enhanced security with <b>email verification</b>, <b>SHA-256 hashing</b> for passwords, ensuring data integrity.</li>
+                        <li className='projects-text'>Enhanced security with <b>email verification</b> and <b>SHA-256 hashing</b> for passwords, ensuring data integrity.</li>
+                        <li className='projects-text'>Exercized software engineering practices through the <b>Software Development Lifecycle (SDLC)</b>.</li>
                     </ul>
                 </div>
                 <div className='card'>

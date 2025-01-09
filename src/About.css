@@ -11,8 +11,14 @@
     margin-top: 100px;
 }
 
+.about-text-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .about-text {
-    padding-inline: 15%;
+
     text-align: center;
     line-height: 2.5;
     color: #000;
