@@ -1,13 +1,10 @@
 header {
+    position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
     background-color: #111;
     padding: 20px;
-}
-
-.header {
-    position: fixed;
 }
 
 nav ul {
