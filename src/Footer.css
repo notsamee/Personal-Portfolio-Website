@@ -3,6 +3,12 @@ footer {
     padding-bottom: 10px;
 }
 
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
 .footer-header {
     margin: 0;
     padding-top: 50px;
@@ -10,7 +16,7 @@ footer {
 }
 
 .footer-text {
-    padding-inline: 20%;
+
     text-align: center;
     display: inline-block;
 }

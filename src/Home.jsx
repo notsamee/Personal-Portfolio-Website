@@ -74,9 +74,7 @@ export default class Home extends React.Component {
                     </ul>
                 </nav>
                 <div className="arrow-container">
-                    <button className="arrow">
-                        <a href="#about"><img src='/arrow.png'></img></a>
-                    </button>
+                        <a className="arrow" href="#about"><img src='/arrow.png'></img></a>
                 </div>
             </section>
         );
