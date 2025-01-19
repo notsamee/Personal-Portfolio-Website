@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Header from './Header.jsx';
 import Home from './Home.jsx';
@@ -9,17 +10,8 @@ import ProjectHeader from './ProjectHeader.jsx';
 
 function App() {
   return(
-    // <>
-    //   <Header />
-    //   <Home />
-    //   <About />
-    //   <Projects />
-    //   <Skills />
-    //   <Footer />
-    // </>
-    
     <>
-    <Router>
+      <Router>
         <Routes>
           <Route path="/" element={
             <>
@@ -45,6 +37,7 @@ function App() {
           }/>
         </Routes>
       </Router>
+      <Analytics />
     </>
   );
 }
