@@ -17,8 +17,20 @@
 }
 
 .bar-card {
-    width: 80vw;
-    height: 550px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+
+    min-width: 350px;
+    max-width: 1000px;
+
+    min-height: 400px;
+    max-height: 700px;
+
+    width: 100%;
+
+    padding: 50px 20px;
+    
     border-radius: 50px;
     background-color: #e0e0e0;
     box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #fff;
